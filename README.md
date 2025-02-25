@@ -49,6 +49,8 @@ A **Flask-based web application** was created to enable users to input Bengali t
 - **Features of the Web Interface:**  
   - Simple UI for easy use.  
   - Real-time Bengali text summarization.
+
+ <br>
  
 <h1><b>Example of Generated Summaries Using the Two Models</b></h1>
 ## Example of Generated Summaries Using the Two Models  
