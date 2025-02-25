@@ -4,6 +4,7 @@
 With the increasing volume of Bengali textual information, effective summarization tools are essential for extracting key insights efficiently. This project develops a domain-adaptive Bengali text summarization model using Large Language Models (LLMs), specifically mT5 and flanT5, trained and fine-tuned on both general and domain-specific datasets. The goal is to enhance the accuracy of summarization for specific content, addressing the scarcity of Bengali text summarization models in a low-resource language setting.
 
 <h1><b>Methodoogy</b></h1>
+
 ### 1. Data Collection & Preprocessing  
 The model was trained on the **XLSUM Bengali dataset**, followed by fine-tuning with a **custom dataset of 21,512 rows**, collected through web scraping from multiple Bengali news sources (**The Daily Star, Prothom Alo, Jugantor, Ittefaq**).  
 
