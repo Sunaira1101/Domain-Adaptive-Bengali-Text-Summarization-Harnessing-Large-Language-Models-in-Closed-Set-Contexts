@@ -56,8 +56,6 @@ A **Flask-based web application** was created to enable users to input Bengali t
 
  ### Table I. EVALUATION PARAMETERS OF THE MODELS FOR BENGALI TEXT SUMMARIZATION
 
- ## Evaluation Parameters of the Models for Bengali Text Summarization  
-
 | Model  | ROUGE-1 | ROUGE-2 | ROUGE-L | BLEU | BERTScore |
 |--------|---------|---------|---------|------|-----------|
 | flanT5 | 0.15    | 0.04    | 0.10    | 0.02 | 0.76      |
@@ -65,9 +63,7 @@ A **Flask-based web application** was created to enable users to input Bengali t
 
 <br>
 
- ### Table II. EVALUATION PARAMETERS FOR 3 DIFFERENT DOMAINS LEVERAGING LLM MODELS IN DIFFERENT SETTINGS
-
- ## Evaluation Parameters for Domain Adaptation in Different Settings  
+ ### Table II. EVALUATION PARAMETERS FOR 3 DIFFERENT DOMAINS LEVERAGING LLM MODELS IN DIFFERENT SETTINGS  
 
 ### **Fine-Tuning Setting**  
 
