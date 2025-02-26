@@ -51,9 +51,43 @@ A **Flask-based web application** was created to enable users to input Bengali t
   - Real-time Bengali text summarization.
 
  <br>
+
+ <h1><b>Result Table</b></h1>
+
+ ### Table I. EVALUATION PARAMETERS OF THE MODELS FOR BENGALI TEXT SUMMARIZATION
+
+ ## Evaluation Parameters of the Models for Bengali Text Summarization  
+
+| Model  | ROUGE-1 | ROUGE-2 | ROUGE-L | BLEU | BERTScore |
+|--------|---------|---------|---------|------|-----------|
+| flanT5 | 0.15    | 0.04    | 0.10    | 0.02 | 0.76      |
+| mT5    | 0.24    | 0.09    | 0.20    | 0.17 | 0.72      |
+
+<br>
+
+ ### Table II. EVALUATION PARAMETERS FOR 3 DIFFERENT DOMAINS LEVERAGING LLM MODELS IN DIFFERENT SETTINGS
+
+ ## Evaluation Parameters for Domain Adaptation in Different Settings  
+
+### **Fine-Tuning Setting**  
+
+| Model  | State (ROUGE, BLEU, BERT) | International (ROUGE, BLEU, BERT) | Sports (ROUGE, BLEU, BERT) |
+|--------|--------------------------|--------------------------------|--------------------------|
+| flanT5 | 0.79, 0.13, 0.86        | 0.78, 0.12, 0.85              | 0.79, 0.11, 0.86        |
+| mT5    | 0.41, 0.31, 0.78        | 0.44, 0.36, 0.83              | 0.35, 0.27, 0.81        |
+
+### **Zero-Shot Setting**  
+
+| Model  | State (ROUGE, BLEU, BERT) | International (ROUGE, BLEU, BERT) | Sports (ROUGE, BLEU, BERT) |
+|--------|--------------------------|--------------------------------|--------------------------|
+| flanT5 | 0.57, 0.38, 0.85        | 0.67, 0.47, 0.89              | 0.59, 0.34, 0.88        |
+| mT5    | 0.65, 0.47, 0.84        | 0.45, 0.38, 0.84              | 0.33, 0.23, 0.82        |
+
+
+
+ <br>
  
-<h1><b>Example of Generated Summaries Using the Two Models</b></h1>
-## Example of Generated Summaries Using the Two Models  
+<h1><b>Example of Generated Summaries Using the Two Models</b></h1> 
 
 | **Section**         | **Content** |
 |---------------------|------------|
@@ -63,4 +97,6 @@ A **Flask-based web application** was created to enable users to input Bengali t
 | **Text Summarization (flanT5)** | ভারতের অন্য ব্যবহার নিষিদ্ধ করার জন্যে এই উদ্যোগ গ্রহণ করেছে ব্যবসায়ীরা। |
 | **Domain Adaptation (mT5)** | ভারতের তামিলনাডু রাজ্যে কোকা-কোলা এবং পেপসি নিষিদ্ধ করেছে ব্যবসায়ীরা। |
 | **Domain Adaptation (flanT5)** | ভারতের অন্য অঞ্চলেও কোক, পেপসি নিষিদ্ধ করার দাবি জানাচ্ছেন কর্মীরা। স্থানীয় পণ্যের ব্যবহার নিশ্চিত করার জন্যই এই উদ্যোগ গ্রহণ করেছে ব্যবসায়ীরা। রাজ্যের শীর্ষ দুটি ব্যবসায়ী এসোসিয়েশন এই দুটি পানীয় নিষিদ্ধ করার প্রস্তাব করেছিল। তারই প্রেক্ষাপটে আজ বুধবার থেকে তামিলনাডু রাজ্যে নিষিদ্ধ হলো। |
+
+
 
